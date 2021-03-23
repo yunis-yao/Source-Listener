@@ -1,2 +1,0 @@
-/usr/bin/ar qc libobserver.a  CMakeFiles/observer.dir/dog.cpp.o CMakeFiles/observer.dir/mouse.cpp.o
-/usr/bin/ranlib libobserver.a
