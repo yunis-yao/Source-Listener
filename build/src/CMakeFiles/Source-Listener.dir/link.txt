@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wl,-E CMakeFiles/Source-Listener.dir/main.cpp.o  -o ../bin/Source-Listener observer/libobserver.a subject/libsubject.a 

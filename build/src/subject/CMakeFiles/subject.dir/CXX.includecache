@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspace/cpppractice/src/observer/myObserver.h
+
+/workspace/cpppractice/src/subject/cat.cpp
+cat.h
+/workspace/cpppractice/src/subject/cat.h
+
+/workspace/cpppractice/src/subject/cat.h
+iostream
+-
+mySubject.h
+/workspace/cpppractice/src/subject/mySubject.h
+
+/workspace/cpppractice/src/subject/mySubject.cpp
+mySubject.h
+/workspace/cpppractice/src/subject/mySubject.h
+
+/workspace/cpppractice/src/subject/mySubject.h
+vector
+-
+../observer/myObserver.h
+/workspace/cpppractice/src/observer/myObserver.h
+
